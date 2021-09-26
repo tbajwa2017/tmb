@@ -11,6 +11,6 @@
         validate_certs: False
         folder: /DC/vm
         state: present
-        snapshot_name: snap4
+        snapshot_name: snap2
         description: snap1_description
       delegate_to: localhost
