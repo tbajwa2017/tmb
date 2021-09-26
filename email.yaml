@@ -1,0 +1,13 @@
+---
+- hosts: localhost
+  tasks:
+  - name: Sending an email using Ansible
+    mail:
+      host: smtp.gmail.com
+      port: 587
+      username: abc@gmail.com
+      password: "password123"
+      to: a@abc.com
+      subject: Testing Email By Ansible Yaml
+      body: Sending email to test ansible yaml file
+      secure: starttls
