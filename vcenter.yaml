@@ -5,12 +5,12 @@
       community.vmware.vmware_guest_snapshot:
         hostname:  vcsa7.my-domain123.com
         username:  administrator@vsphere.local
-        password:  password123
+        password:  $Duval?12
         datacenter:  DC
         name:  vm5
         validate_certs: False
         folder: /DC/vm
         state: present
-        snapshot_name: snap3
+        snapshot_name: snap4
         description: snap1_description
       delegate_to: localhost
