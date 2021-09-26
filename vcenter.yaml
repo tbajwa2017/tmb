@@ -4,8 +4,6 @@
     - name: Create a snapshot
       community.vmware.vmware_guest_snapshot:
         hostname:  vcsa7.my-domain123.com
-        username:  administrator@vsphere.local
-        password:  $Duval?12
         datacenter:  DC
         name:  vm5
         validate_certs: False
