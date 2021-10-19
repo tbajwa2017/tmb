@@ -1,1 +1,9 @@
+---
+- name: system patching
+  hosts: centos7_64Guest
+  tasks:
+  - name: Yum to apply patches
+    yum:
+     name: '*'
+     state: latest
 
