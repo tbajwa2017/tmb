@@ -8,7 +8,6 @@
      state: latest
      
   - name: apt to apply patches
-    apt:
-     name: '*'
-     state: latest
+    apt: apt: update_cache=yes force_apt_get=yes
+     
 
