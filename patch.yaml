@@ -7,7 +7,7 @@
      name: '*'
      state: latest
      
-  - name: Yum to apply patches
+  - name: apt to apply patches
     apt:
      name: '*'
      state: latest
