@@ -6,10 +6,10 @@
     yum:
      name: '*'
      state: latest
-  - name: apt to apply patches
+  - name: Update all packages to their latest version
     apt:
-     update_cache: true
-     force_apt_get: true
+      name: "*"
+      state: latest
      
    
      
