@@ -6,11 +6,7 @@
     yum:
      name: '*'
      state: latest
-  - name: Update all packages to their latest version
-    apt:
-      name: "*"
-      state: latest
-     
+   
    
      
 
